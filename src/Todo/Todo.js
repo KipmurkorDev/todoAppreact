@@ -1,8 +1,8 @@
 import React from 'react'
-import './button.css'
+import './todo.css'
 import { useState } from 'react'
 
-export default function Buttons({item, deleHandler,index, handleShow}) {
+export default function Todo({item, deleHandler,index, handleShow}) {
 
 const[isActive, setIsActive]=useState(false)
 

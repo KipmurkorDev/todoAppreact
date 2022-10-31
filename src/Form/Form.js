@@ -1,9 +1,9 @@
 
 import React, { useState } from "react"
-import './input.css'
+import './Form.css'
 import Task from "../Task/Task"
 
-export default function Input() {
+export default function Form() {
   const options = [
     {value: '', text: '--Choose an option--'},
     {value: 'Low', text: 'Low'},

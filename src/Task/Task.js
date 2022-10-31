@@ -1,5 +1,5 @@
 import React from 'react'
-import Buttons from '../Buttons/Buttons';
+import Todo from '../Todo/Todo';
 import './task.css'
 
 export default function Task({items, deleHandler, handleShow}) {
@@ -9,7 +9,7 @@ export default function Task({items, deleHandler, handleShow}) {
     <div >
      {
         items.map((item, index)=>(
-         <Buttons item={item}   index={index}  deleHandler={deleHandler}  handleShow={handleShow}/> 
+         <Todo item={item}   index={index}  deleHandler={deleHandler}  handleShow={handleShow}/> 
         ))
      }
     
